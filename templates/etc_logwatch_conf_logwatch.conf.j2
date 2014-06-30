@@ -1,7 +1,8 @@
 # This file is under control by Ansible for {{inventory_hostname}}
 # DO NOT MODIFY by hand
 
-MailTo = {{logwatch_email}}
+MailTo = {{logwatch_email_to}}
+MailFrom = {{logwatch_email_from | default(ansible_hostname + '@' + ansible_domain, true)}}
 Detail = {{logwatch_detail}}
 Range = {{logwatch_range}}
 Output = {{logwatch_output}}

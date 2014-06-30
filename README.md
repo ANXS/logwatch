@@ -10,7 +10,8 @@ Ansible role which installs and configures logwatch.
 #### Variables
 
 ```yaml
-logwatch_email: "root@localhost"  # Email Address which Logwatch reports to
+logwatch_email_to: "root@localhost"  # Email Address which Logwatch reports to
+logwatch_email_from: ""           # Email Address of the sender of reports (default "ansible_hostname"@"ansible_domain")
 logwatch_detail: "low"            # The level of detail in the Logwatch report
 logwatch_range: "yesterday"       # The default time range for the Logwatch report
 logwatch_output: "stdout"         # The output method of the Logwatch report
