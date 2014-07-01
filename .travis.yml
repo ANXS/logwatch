@@ -6,7 +6,7 @@ before_install:
  - sudo apt-get install -qq python-apt python-pycurl
 install:
   - sudo pip install ansible
-  - sudo ansible-galaxy install -f kalos.smartd
+  - sudo ansible-galaxy install -f kalos.logwatch
 script:
   - echo localhost > inventory
   - ansible-playbook --syntax-check -i inventory playbook.yml
