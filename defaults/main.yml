@@ -1,5 +1,3 @@
-# file: logwatch/defaults/main.yml
-
 logwatch_email_to: "root@localhost"  # Email Address which Logwatch reports to
 logwatch_email_from: ""           # Email Address of the sender of reports
 logwatch_detail: "low"            # The level of detail in the Logwatch report

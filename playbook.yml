@@ -1,0 +1,9 @@
+---
+- hosts: all
+
+  # trick to load custom vars in vagrant environment
+  vars_files:
+    - [ "local_vars.yml", "defaults/main.yml" ]
+
+  roles:
+    - { role: kalos.logwatch }
