@@ -1,9 +1,3 @@
-.DS_Store
-.AppleDouble
-.LSOverride
-Icon
-._*
-.Spotlight-V100
-.Trashes
-.vagrant
-test
+.vagrant/
+vagrant_ansible_inventory*
+local_vars.yml

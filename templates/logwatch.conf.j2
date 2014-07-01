@@ -1,0 +1,8 @@
+# {{ansible_managed}}
+
+MailTo = {{logwatch_email_to}}
+MailFrom = {{logwatch_email_from | default(ansible_hostname + '@' + ansible_domain, true)}}
+Detail = {{logwatch_detail}}
+Range = {{logwatch_range}}
+Output = {{logwatch_output}}
+Format = {{logwatch_format}}

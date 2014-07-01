@@ -1,19 +1,17 @@
-# file: logwatch/meta/main.yml
-
 galaxy_info:
-  author: pjan vandaele
-  company: Ansibles
-  description: Install logwatch and its dependencies
+  author: Calogero Lo Leggio (kalos), pjan vandaele
+  company: LibreIT, Ansibles
+  description: Install and configure logwatch
   min_ansible_version: 1.3
   license: MIT
   platforms:
+  - name: Debian
+    versions:
+    - squeeze
+    - wheezy
   - name: Ubuntu
     versions:
     - all
   categories:
   - system
   - monitoring
-
-dependencies:
-  - Ansibles.perl
-  - Ansibles.cron
