@@ -1,4 +1,4 @@
-## Ansibles - logwatch [![Build Status](https://travis-ci.org/Ansibles/logwatch.png)](https://travis-ci.org/Ansibles/logwatch)
+## ANXS - logwatch [![Build Status](https://travis-ci.org/ANXS/logwatch.png)](https://travis-ci.org/ANXS/logwatch)
 
 Ansible role which installs and configures logwatch.
 
@@ -26,4 +26,4 @@ Licensed under the MIT License. See the LICENSE file for details.
 
 #### Feedback, bug-reports, requests, ...
 
-Are [welcome](https://github.com/ansibles/logwatch/issues)!
+Are [welcome](https://github.com/ANXS/logwatch/issues)!
